@@ -6,7 +6,7 @@ function h($str)
 
 function db_conn(){
     try {
-        $db_name = 'gs_db03'; //データベース名
+        $db_name = 'gs_db003'; //データベース名
         $db_id   = 'root'; //アカウント名
         $db_pw   = ''; //パスワード：MAMPは'root'
         $db_host = 'localhost'; //DBホスト

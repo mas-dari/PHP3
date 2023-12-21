@@ -30,7 +30,7 @@
                 <label>名前：<input type="text" name="name"></label><br>
                 <label>生年月日：<input type="text" name="age"></label><br>
                 <label>住所：<input type="text" name="adress"></label><br>
-                <label>電話番号：<input type="text" name="age"></label><br>
+                <label>電話番号：<input type="text" name="phoneNumber"></label><br>
                 <label>メールアドレス：<input type="text" name="email"></label><br>
                 <input type="submit" value="送信">
             </fieldset>
