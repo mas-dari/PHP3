@@ -41,7 +41,7 @@ if ($status === false) {
     <header>
         <nav class="navbar navbar-default">
             <div class="container-fluid">
-                <div class="navbar-header"><a class="navbar-brand" href="select.php">会員情報</a></div>
+                <div class="navbar-header"><a class="navbar-brand" href="select.php">会員情報一覧</a></div>
             </div>
         </nav>
     </header>

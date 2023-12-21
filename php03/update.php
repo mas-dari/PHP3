@@ -48,6 +48,13 @@ $stmt->bindValue(':content', $content, PDO::PARAM_STR);
 $stmt->bindValue(':id', $id, PDO::PARAM_INT);
 $status = $stmt->execute(); //実行
 
+// $stmt->bindValue(':name', $name, PDO::PARAM_STR);
+// $stmt->bindValue(':email', $email, PDO::PARAM_STR);
+// $stmt->bindValue(':age', $age, PDO::PARAM_INT); //PARAM_INTなので注意
+// $stmt->bindValue(':content', $content, PDO::PARAM_STR);
+// $status = $stmt->execute(); //実行
+
+
 //４．データ登録処理後
 if ($status === false) {
     //*** function化する！******\
